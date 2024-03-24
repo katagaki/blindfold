@@ -1,6 +1,6 @@
 {
   "name": "blindfold",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -82,9 +82,10 @@
     "stylelint": "^14.16.0",
     "stylelint-config-prettier": "^9.0.4",
     "stylelint-prettier": "^2.0.0",
-    "vue-svg-loader": "^0.16.0"
+    "vue-svg-loader": "^0.16.0",
+    "webpack": "^4.1 < 5.0"
   },
   "engines": {
-    "node": ">17.x"
+    "node": ">18.x"
   }
 }

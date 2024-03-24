@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:app"
+      name = "app">
+      <FileRef
+         location = "group:index.js">
+      </FileRef>
+      <FileRef
+         location = "group:config.js">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:public"
+      name = "public">
+      <FileRef
+         location = "group:index.html">
+      </FileRef>
+      <Group
+         location = "group:img"
+         name = "img">
+         <FileRef
+            location = "group:og-image.png">
+         </FileRef>
+         <Group
+            location = "group:icons"
+            name = "icons">
+            <FileRef
+               location = "group:favicon-16x16.png">
+            </FileRef>
+            <FileRef
+               location = "group:safari-pinned-tab.svg">
+            </FileRef>
+            <FileRef
+               location = "group:apple-touch-icon-120x120.png">
+            </FileRef>
+            <FileRef
+               location = "group:android-chrome-192x192.png">
+            </FileRef>
+            <FileRef
+               location = "group:apple-touch-icon.png">
+            </FileRef>
+            <FileRef
+               location = "group:apple-touch-icon-40x40.png">
+            </FileRef>
+            <FileRef
+               location = "group:apple-touch-icon-152x152.png">
+            </FileRef>
+            <FileRef
+               location = "group:apple-touch-icon-180x180.png">
+            </FileRef>
+            <FileRef
+               location = "group:apple-touch-icon-76x76.png">
+            </FileRef>
+            <FileRef
+               location = "group:android-chrome-512x512.png">
+            </FileRef>
+            <FileRef
+               location = "group:msapplication-icon-144x144.png">
+            </FileRef>
+            <FileRef
+               location = "group:mstile-150x150.png">
+            </FileRef>
+            <FileRef
+               location = "group:favicon-64x64.png">
+            </FileRef>
+            <FileRef
+               location = "group:apple-touch-icon-60x60.png">
+            </FileRef>
+            <FileRef
+               location = "group:favicon-32x32.png">
+            </FileRef>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:manifest.json">
+      </FileRef>
+      <FileRef
+         location = "group:robots.txt">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:src"
+      name = "src">
+      <FileRef
+         location = "group:App.vue">
+      </FileRef>
+      <Group
+         location = "group:layout"
+         name = "layout">
+         <Group
+            location = "group:AppUser"
+            name = "AppUser">
+            <FileRef
+               location = "group:index.vue">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:BaseLayout.vue">
+         </FileRef>
+         <Group
+            location = "group:AppWelcome"
+            name = "AppWelcome">
+            <FileRef
+               location = "group:index.vue">
+            </FileRef>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:store.js">
+      </FileRef>
+      <Group
+         location = "group:utilities"
+         name = "utilities">
+         <FileRef
+            location = "group:bugsnag.js">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:main.js">
+      </FileRef>
+      <Group
+         location = "group:styles"
+         name = "styles">
+         <FileRef
+            location = "group:_typography.css">
+         </FileRef>
+         <FileRef
+            location = "group:_variables.css">
+         </FileRef>
+         <FileRef
+            location = "group:global.css">
+         </FileRef>
+         <FileRef
+            location = "group:_reset.css">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:components"
+         name = "components">
+         <Group
+            location = "group:AppButton"
+            name = "AppButton">
+            <FileRef
+               location = "group:index.vue">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:AppNotice"
+            name = "AppNotice">
+            <FileRef
+               location = "group:index.vue">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:AppUpdate"
+            name = "AppUpdate">
+            <FileRef
+               location = "group:index.vue">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:AppAbout"
+            name = "AppAbout">
+            <FileRef
+               location = "group:index.vue">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Modal"
+            name = "Modal">
+            <FileRef
+               location = "group:index.vue">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:BouncingBalls"
+            name = "BouncingBalls">
+            <FileRef
+               location = "group:index.vue">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:AppInfo"
+            name = "AppInfo">
+            <FileRef
+               location = "group:index.vue">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:public"
+         name = "public">
+         <FileRef
+            location = "group:close-icon.svg">
+         </FileRef>
+         <FileRef
+            location = "group:done-icon.svg">
+         </FileRef>
+         <FileRef
+            location = "group:info-icon.svg">
+         </FileRef>
+         <FileRef
+            location = "group:app-icon.svg">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:registerServiceWorker.js">
+      </FileRef>
+      <FileRef
+         location = "group:service-worker.js">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:babel.config.js">
+   </FileRef>
+   <FileRef
+      location = "group:package.json">
+   </FileRef>
+   <FileRef
+      location = "group:postcss.config.js">
+   </FileRef>
+   <FileRef
+      location = "group:readme.md">
+   </FileRef>
+   <FileRef
+      location = "group:vue.config.js">
+   </FileRef>
+</Workspace>
