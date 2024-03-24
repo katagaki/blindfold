@@ -23,14 +23,18 @@ What you’ll need to get started.
 
 1. Using Git, clone this repository to your local machine.
 2. Run `npm install` or `yarn install` from inside the project's directory to install all dependencies.
-3. Get your API Key and API Secret from https://developer.twitter.com
+3. Get your API Key and API Secret from https://developer.twitter.com.
+    Ensure that you set the callback URL to both `http://127.0.0.1:3000/api/auth/callback` and `http://127.0.0.1:3001/api/auth/callback`.
 4. Run `cp ./env.local.sample ./.env` and adjust config variables.
 6. Run `npm install --force` to install dependencies.
+7. Install Redis.
 
 
 ### Running
 
-Run `npm run serve` to start Blindfold.
+1. Start the Redis server locally.
+2. On one terminal, run `npm run express` to start the backend.
+3. On another terminal, run `npm run serve` to start Blindfold.
 
 
 ### Configuration

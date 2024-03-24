@@ -110,13 +110,6 @@
       <FileRef
          location = "group:store.js">
       </FileRef>
-      <Group
-         location = "group:utilities"
-         name = "utilities">
-         <FileRef
-            location = "group:bugsnag.js">
-         </FileRef>
-      </Group>
       <FileRef
          location = "group:main.js">
       </FileRef>
@@ -205,15 +198,12 @@
             location = "group:app-icon.svg">
          </FileRef>
       </Group>
-      <FileRef
-         location = "group:registerServiceWorker.js">
-      </FileRef>
-      <FileRef
-         location = "group:service-worker.js">
-      </FileRef>
    </Group>
    <FileRef
       location = "group:babel.config.js">
+   </FileRef>
+   <FileRef
+      location = "group:env.local.sample">
    </FileRef>
    <FileRef
       location = "group:package.json">

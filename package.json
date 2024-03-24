@@ -13,9 +13,6 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.20.6",
-    "@bugsnag/js": "^7.18.0",
-    "@bugsnag/plugin-express": "^7.18.0",
-    "@bugsnag/plugin-vue": "^7.18.0",
     "@vue/cli-plugin-babel": "^4.5.19",
     "@vue/cli-plugin-eslint": "^4.5.19",
     "@vue/cli-plugin-pwa": "~4.5.19",
@@ -50,7 +47,6 @@
     "promise-limit": "^2.7.0",
     "quickmetrics": "^1.0.2",
     "redis": "^3.1.2",
-    "register-service-worker": "^1.7.2",
     "reset-css": "^5.0.1",
     "twitter": "^1.7.1",
     "vue": "^2.7.14",
@@ -87,5 +83,6 @@
   },
   "engines": {
     "node": ">18.x"
-  }
+  },
+  "packageManager": "pnpm@8.15.5+sha1.a58c038faac410c947dbdb93eb30994037d0fce2"
 }
